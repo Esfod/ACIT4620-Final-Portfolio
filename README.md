@@ -22,15 +22,19 @@ The project implements the following optimisation techniques:
 Ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
 
 ```bash
-pip install pandas matplotlib numpy pandas sikit-fuzzy
+pip install pandas matplotlib numpy pandas skfuzzy
 ```
 
 ### Required Imports
 ```bash
-import numpy
-import pandas
-import mathplotlib
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from datetime import datetime
+import skfuzzy as fuzz
+from skfuzzy import control as ctrl
 import scikit-fuzzy
+from typing import List
 ```
 
 
