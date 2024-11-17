@@ -26,12 +26,12 @@ pip install pandas matplotlib numpy pandas sikit-fuzzy
 ```
 
 ### Required Imports
-´´´bash
+```bash
 import numpy
 import pandas
 import mathplotlib
 import scikit-fuzzy
-´´´
+```
 
 
 
