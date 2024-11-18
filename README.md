@@ -18,7 +18,12 @@ The project implements the following optimisation techniques:
 ## Running the Project
 
 ### Prerequisites
-Ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
+For a fully functioning fuzzy logic system with `skfuzzy`, ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
+
+1. `scipy`: For mathematical operations like membership function calculations.
+2. `networkx`: For fuzzy rule graph management.
+3. `numpy`: For numerical operations.
+4. `matplotlib`: For visualisation (optional, for plotting membership functions).
 
 ```bash
 pip install pandas matplotlib numpy pandas scikit-fuzzy scipy networkx
