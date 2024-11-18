@@ -21,7 +21,7 @@ The project implements the following optimisation techniques:
 Ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
 
 ```bash
-pip install pandas matplotlib numpy pandas scikit-fuzzy
+pip install pandas matplotlib numpy pandas scikit-fuzzy scipy networkx
 ```
 
 ### Required Imports
