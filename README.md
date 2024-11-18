@@ -36,7 +36,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 import skfuzzy as fuzz
-from skfuzzy import control as ctrl
+import skfuzzy.control as ctrl
 import scikit-fuzzy
 from typing import List
 ```
