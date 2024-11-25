@@ -82,7 +82,7 @@ from typing import List
 4. Run the `main.py` script 
 
 ### 2. How to run the notebook: `project_rundown.ipynb`
-1. Follows the steps of the methods above to make sure the necssary libraries are installed.
+1. Follows the steps of the methods above to make sure the necessary libraries are installed.
 2. Set Up the Environment:
     - Make sure that the file is run via an IDE/environment compatible with jupyter notebook files.
     - Make sure the libraries are installed in the same environemnt as the notebook file.
