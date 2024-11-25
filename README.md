@@ -75,6 +75,7 @@ from typing import List
     - Ensure all provided Python scripts are in the same directory and environment.
     - Ensure the `\data` directory is downloaded 
 2. Make sure all of the libraries are installed in the same environment.
+   - Ensure that the scripts imports are not changed within the source code.
 3. Data dictionary appears in the same environment as the scripts.
     - Ensure all input CSV files (e.g., fine_dog_data.csv, sick_dog_data.csv) are placed in the Data directory.
 4. Run the `main.py` script 
