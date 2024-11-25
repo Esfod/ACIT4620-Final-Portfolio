@@ -72,7 +72,7 @@ from typing import List
 
 ### How to run the project algorithm: `main.py`
 1. Set Up the Environment:
-    - Make sure to download the scripts in the repository.
+    - Make sure to download all of the python scripts (.py files) in the repository.
     - Ensure all provided Python scripts are in the same directory and environment.
     - Ensure the `\data` directory is downloaded 
 2. Make sure all of the libraries are installed in the same environment.
