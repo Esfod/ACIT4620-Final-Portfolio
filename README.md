@@ -35,7 +35,7 @@ These techniques work together to form an end-to-end system that processes data,
 - `\experiemnt_data` directory holds records of previous run results (outputs) 
 
 ### Notebook file
-- `project_rundown.ipynb` gives a detailed explanations of the projects codes with example outputs in a notebook format.
+- `project_rundown.ipynb` is a Jupyter notebook file which gives a detailed explanations of the projects codes with example outputs in a notebook format.
 
 ## Running the Project
 
