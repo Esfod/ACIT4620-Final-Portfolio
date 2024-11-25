@@ -70,7 +70,7 @@ import scikit-fuzzy
 from typing import List
 ```
 
-### How to run the project algorithm: `main.py`
+### Method 1: How to run the project algorithm: `main.py`
 1. Set Up the Environment:
     - Make sure to download all of the python scripts (.py files) in the repository.
     - Ensure all provided Python scripts are in the same directory and environment.
@@ -81,14 +81,14 @@ from typing import List
     - Ensure all input CSV files (e.g., fine_dog_data.csv, sick_dog_data.csv) are placed in the Data directory.
 4. Run the `main.py` script 
 
-### 2. How to run the notebook: `project_rundown.ipynb`
+### Method 2: How to run the notebook: `project_rundown.ipynb`
 1. Follows the steps of the methods above to make sure the necessary libraries are installed.
 2. Set Up the Environment:
     - Make sure that the file is run via an IDE/environment compatible with jupyter notebook files (.ipynb).
     - Make sure the libraries are installed in the same environment as the notebook file.
 3. Feel free to read trhough the notebook and run the individual code blocks!
 
-### 2.1 Running the notebook directly here in the project's repository!
+### Method 3: Running the notebook directly here in the project's repository!
 1. Just navigate to the repository's file overview on the right.
 2. click on the `project_rundown.ipynb` to view its content!
 
