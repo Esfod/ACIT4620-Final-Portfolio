@@ -83,10 +83,11 @@ from typing import List
 
 ### Method 2: How to run the notebook: `project_rundown.ipynb`
 1. Follows the steps of the methods above to make sure the necessary libraries are installed.
-2. Set Up the Environment:
+2. Download the Jupyter file, `project_rundown.ipynb`, from the GitHub repository.
+3. Set Up the Environment:
     - Make sure that the file is run via an IDE/environment compatible with jupyter notebook files (.ipynb).
     - Make sure the libraries are installed in the same environment as the notebook file.
-3. Feel free to read trhough the notebook and run the individual code blocks!
+4. Feel free to read trhough the notebook and run the individual code blocks!
 
 ### Method 3: Running the notebook directly here in the project's repository!
 1. Just navigate to the repository's file overview on the right.
