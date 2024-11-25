@@ -83,4 +83,6 @@ from typing import List
 3. Feel free to read trhough the notebook and run the individual code blocks!
 
 ### 2.1 Running the notebook directly here in the project's repository!
+1. Just navigate to the repository's file overview on the right.
+2. click on the `project_rundown.ipynb` to view its content!
 
