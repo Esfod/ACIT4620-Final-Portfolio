@@ -37,7 +37,7 @@ These techniques work together to form an end-to-end system that processes data,
 ### Notebook file
 - `project_rundown.ipynb` is a Jupyter notebook file which gives a detailed explanations of the projects codes with example outputs in a notebook format.
 
-### Preferred Python interpeter:
+### Preferred Python interpreter:
 - This project was produced and run via the following IDE: PyCharm.
 - Any other IDE which are compatible with python scrips and notebook (.py and .ipynb files) should be able to run the projects source code.
 
