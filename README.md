@@ -1,32 +1,56 @@
 # Final Exam Project - ACIT4620
 
-_project statement_
+This project implements a fuzzy logic system to monitor and evaluate the condition of dogs based on physiological and environmental data. The system processes input data, applies fuzzy inference, and visualises the results in a 24-hour schedule.
 
 
-
-### Algorithms Included
+### Algorithms Included (Features)
 The project implements the following optimisation techniques:
+
+1. **Fuzzy Logic-Based Inference**:
+   - Uses fuzzy membership functions and inference rules to evaluate the condition of dogs.
+   - Inputs are fuzzified, processed through a rule-based control system, and defuzzified to produce meaningful output.
+
+2. **Custom Membership Function Design**:
+   - Employs a combination of triangular, Gaussian, and generalised bell-shaped membership functions for flexibility and accuracy.
+   - Ensures that input data is mapped effectively into linguistic terms for evaluation.
+
+3. **Data Visualisation Optimisation**:
+   - Implements a customised 24-hour condition tracking system.
+   - Translates fuzzy output into a visual representation for better interpretability.
+
+These techniques work together to form an end-to-end system that processes data, evaluates conditions, and presents insights efficiently.
 
 
 
 ## Repository Structure
 
-### Notebook file
 
 ### Python Scripts
+- `main.py`
+- `membership_functions.py`
+- `data_analysis.py`
+
+### Additional files
+- `\data` directory holding the raw input data (raw CSV files)
+- `\experiemnt_data` directory holds records of previous run results (outputs) 
+
+### Notebook file
+- `project_rundown.ipynb` gives a detailed explanations of the projects codes with example outputs in a notebook format.
 
 ## Running the Project
 
 ### Prerequisites
 For a fully functioning fuzzy logic system with `skfuzzy`, ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
 
-1. `scipy`: For mathematical operations like membership function calculations.
-2. `networkx`: For fuzzy rule graph management.
-3. `numpy`: For numerical operations.
-4. `matplotlib`: For visualisation (optional, for plotting membership functions).
+1. `scikit-fuzzy`: For implementing fuzzy logic systems.
+2. `scipy`: For mathematical operations like membership function calculations.
+3. `networkx`: For fuzzy rule graph management.
+4. `numpy`: For numerical operations.
+5. `pandas`: For data table operations.
+6. `matplotlib`: For visualisation (optional, for plotting membership functions).
 
 ```bash
-pip install pandas matplotlib numpy pandas scikit-fuzzy scipy networkx
+pip install pandas matplotlib numpy scikit-fuzzy scipy networkx
 ```
 
 ### Required Imports
@@ -41,9 +65,22 @@ import scikit-fuzzy
 from typing import List
 ```
 
-### 1. Set Up the Environment
-Ensure all provided Python scripts are in the same directory and environment.
+### How to run the project algorithm: `main.py`
+1. Set Up the Environment:
+    - Make sure to download the scripts in the repository.
+    - Ensure all provided Python scripts are in the same directory and environment.
+    - Ensure the `\data` directory is downloaded 
+2. Make sure all of the libraries are installed in the same environment.
+3. Data dictionary appears in the same environment as the scripts.
+    - Ensure all input CSV files (e.g., fine_dog_data.csv, sick_dog_data.csv) are placed in the Data directory.
+4. Run the `main.py` script 
 
-### 2. Run the _insert script_
+### 2. How to run the notebook: `project_rundown.ipynb`
+1. Follows the steps of the methods above to make sure the necssary libraries are installed.
+2. Set Up the Environment:
+    - Make sure that the file is run via an IDE/environment compatible with jupyter notebook files.
+    - Make sure the libraries are installed in the same environemnt as the notebook file.
+3. Feel free to read trhough the notebook and run the individual code blocks!
 
+### 2.1 Running the notebook directly here in the project's repository!
 
