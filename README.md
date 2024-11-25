@@ -37,11 +37,11 @@ These techniques work together to form an end-to-end system that processes data,
 ### Notebook file
 - `project_rundown.ipynb` is a Jupyter notebook file which gives a detailed explanations of the projects codes with example outputs in a notebook format.
 
-## Running the Project
-
 ### Preferred Python interpeter:
 - This project was produced and run via the following IDE: PyCharm.
 - Any other IDE which are compatible with python scrips and notebook (.py and .ipynb files) should be able to run the projects source code.
+
+## Running the Project
 
 ### Prerequisites
 For a fully functioning fuzzy logic system with `skfuzzy`, ensure the following Python packages are installed to be able to run this project (for Python 3.8 or later) :
